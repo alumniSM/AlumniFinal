@@ -51,12 +51,7 @@ const Sidebar = ({ closeMobileSidebar }) => {
     <div className="h-screen fixed md:fixed top-0 bg-[#1B3A21] text-white w-64 flex flex-col overflow-hidden">
       <div className="p-5 border-b border-[#2A4A30] flex justify-between items-center">
         <Link to="/" className="flex items-center">
-          <img
-            src="/lovable-uploads/a65d74d8-d48d-4de2-961e-c3c4e6eb6a56.png"
-            alt="ZAI Alumni Logo"
-            className="h-8 mr-2 brightness-200 invert"
-          />
-          <span className="text-2xl font-bold text-white">Zaialumni</span>
+          <span className="text-2xl font-bold text-white">AlumniNetwork</span>
         </Link>
         {isMobile && (
           <button
